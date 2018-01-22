@@ -1,7 +1,7 @@
 <?php
 // parameters
-$hubVerifyToken = 'pipe';
-$accessToken = "EAAEAjpZBNWk0BAIQ3Qm6N93mR9rqtRvmYVkyHukqelybbel3g7ZCpbon1RwvdF6M6uoHDlsnlwJ5jsBpwAN4wzWgthQvEC1cumCKZBjvQK9tsfkMBq5d6HYZCyMsPaufmlbz6ZBNW7Y2b9yuwWsD4qnne8ahyr5OrsWPqSxxHrgZDZD";
+$hubVerifyToken = 'USER TOKEN :D';
+$accessToken = "LLAVE :D";
 // check token at setup
 if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
   echo $_REQUEST['hub_challenge'];
